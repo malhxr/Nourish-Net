@@ -5,6 +5,7 @@ import plotly.express as px
 import google.generativeai as genai
 import os
 
+#updating key
 # Configure GenAI
 api_key = os.environ.get("API_KEY")
 genai.configure(api_key=api_key)
